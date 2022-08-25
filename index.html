@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        function check(x, y) {
+            if (((x % 7 == 0 || x % 11 == 0) || (y % 7 == 11 || y % 11 == 0))) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        console.log(check(14, 21));
+console.log(check(14, 20));
+console.log(check(16, 20));
+    </script>
+</body>
+</html>
